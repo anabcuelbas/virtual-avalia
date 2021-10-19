@@ -1,8 +1,8 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import { AdminLogin } from "../modules/admin/admin-login";
-import { HomeScreen } from "../modules/home-page";
-import { StudentLogin } from "../modules/student/student-login";
+import { AdminLogin } from "../modules/admin/adminLogin";
+import { HomeScreen } from "../modules/homePage";
+import { StudentLogin } from "../modules/student/studentLogin";
 
 export const Routes = () => {
   return (
