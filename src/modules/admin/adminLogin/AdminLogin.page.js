@@ -1,10 +1,10 @@
 import React from "react";
 
-import { ReactComponent as Title } from "../../../assets/TitleGreen.svg";
 import LoginButton from "../../../components/login/LoginButton";
 import LoginContainer from "../../../components/login/LoginContainer";
 import LoginInput from "../../../components/login/LoginInput";
 import LoginTitleContainer from "../../../components/login/LoginTitleContainer";
+import Title from "../../../components/login/Title";
 import PageDefault from "../../../components/PageDefault";
 import Colors from "../../../constants/Colors";
 
