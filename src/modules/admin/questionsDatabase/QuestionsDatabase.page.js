@@ -1,4 +1,5 @@
 import React from "react";
+import './QuestionsDb.css';
 
 import PageDefault from "../../../components/PageDefault";
 import PageContent from "../../../components/PageContent";
@@ -16,16 +17,19 @@ export const QuestionsDatabase = () => {
         <Header>
             <HeaderTitle/>
         </Header>
-
         <PageContent>
-
-            <SearchBar
-                placeholder='Pesquisar pelo nome da questão'
-            />
-            <LongButton
-                path='/'
-                name='Cadastrar questão'
-            />
+            <div className='top-items'>
+                <SearchBar
+                    placeholder='Pesquisar pelo nome da questão'
+                />
+                <div className='button-container'>
+                    <LongButton
+                        path='/'
+                        name='Cadastrar questão'
+                        color='#30C23F'
+                    />
+                </div>
+            </div>
 
             <Table
                     hasHeader={false}
