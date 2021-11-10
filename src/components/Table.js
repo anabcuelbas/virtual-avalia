@@ -20,7 +20,7 @@ class Table extends Component {
                             {this.props.selectionButton && <CheckBox />}
                             <div className="item-text">
                                 {el.map(function (value, index, array) {
-                                    return <p key={index}>{value}</p>
+                                    return <p style={{width: "100%"}} key={index}>{value}</p>
                                 })
                                 }
                             </div>

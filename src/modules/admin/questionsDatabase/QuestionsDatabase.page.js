@@ -17,6 +17,7 @@ export const QuestionsDatabase = () => {
         <Header>
             <HeaderTitle/>
         </Header>
+
         <PageContent>
             <div className='top-items'>
                 <SearchBar
