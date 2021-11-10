@@ -1,0 +1,39 @@
+.edit-button {
+    background-color: #F6BD60;
+    border-radius: .5rem;
+    padding: .4rem;
+    width: 1.5rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-button {
+    background-color: #EF3E36;
+    border-radius: .5rem;
+    padding: .4rem;
+    width: 1.5rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.long-green-button {
+    background-color: #30C23F;
+    width: 10rem;
+    margin-top: 2rem;
+    padding: .5rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.long-green-button p {
+    text-decoration: none;
+    color: #FFFFFF;
+}

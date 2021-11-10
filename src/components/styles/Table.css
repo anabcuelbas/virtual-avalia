@@ -1,4 +1,6 @@
 .table-container {
+    width: 100%;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,7 +8,7 @@
 }
 
 .table-background {
-    width: 80%;
+    width: 100%;
     background-color: #CFE7D1;
     display: flex;
     flex-direction: column;
@@ -20,18 +22,34 @@
     border-radius: 5rem;
     background-color: #819A83;
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
 }
 
+/*Olá, amige! Antes de mexer nesse arquivo, tenha em mente q 
+a responsividade da tabela é sensível e ela é usada em 
+muitos lugares
+beijos, te amo
+gi ;) */
+
 .table-item {
     width: 100%;
-    height: 3rem;
     background-color: #FFFFFF;
     margin-top: 1rem;
     display: flex;
-    /* justify-content: space-around; */
+    flex-direction: row;
     align-items: center;
+}
+
+.item-buttons {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+.item-text {
+    width: 100%;
 }
 
 p {
