@@ -1,6 +1,10 @@
-import { ReactComponent as Title } from "../../assets/TitleGreen.svg";
 import { useHistory } from "react-router-dom";
-import LoginTitleContainer from "../../components/login/LoginTitleContainer";
+
+import { ReactComponent as TitleMobile } from "../../assets/MobileTitleGreen.svg";
+import { ReactComponent as TitleDesktop } from "../../assets/TitleGreen.svg";
+
+import LoginTitleContainerDesktop from "../../components/login/LoginTitleContainerDesktop";
+import LoginTitleContainerMobile from "../../components/login/LoginTitleContainerMobile";
 import PageDefault from "../../components/PageDefault";
 import Colors from "../../constants/Colors";
 import LoginContainer from "../../components/login/LoginContainer";
@@ -19,9 +23,12 @@ export const HomeScreen = () => {
 
   return (
     <PageDefault color={Colors.cream}>
-      <LoginTitleContainer>
-        <Title />
-      </LoginTitleContainer>
+      <LoginTitleContainerDesktop>
+        <TitleDesktop />
+      </LoginTitleContainerDesktop>
+      <LoginTitleContainerMobile>
+        <TitleMobile />
+      </LoginTitleContainerMobile>
       <LoginContainer>
         <LoginButton color={Colors.primaryGreen} onClick={handleAdminLogin}>
           Faça login como Professor
