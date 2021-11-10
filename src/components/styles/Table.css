@@ -40,6 +40,11 @@ gi ;) */
     align-items: center;
 }
 
+.item-text {
+    display: flex;
+    justify-content: space-around;
+}
+
 .item-buttons {
     width: 100%;
     flex: 1;
@@ -54,4 +59,11 @@ gi ;) */
 
 p {
     margin: .5rem;
+}
+
+@media (max-width: 750px) {
+    .item-text {
+        flex-direction: column;
+        justify-content: center;
+    }
 }

@@ -1,12 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 
-import PageDefault from "../../../components/PageDefault";
+import EditButton from "../../../components/EditButton";
+import DeleteButton from "../../../components/DeleteButton";
 import Header from "../../../components/header/Header";
 import HeaderTitle from "../../../components/header/HeaderTitle"
-import SearchBar from "../../../components/SearchBar";
-import PageContent from "../../../components/PageContent";
 import LongButton from "../../../components/LongButton";
+import PageContent from "../../../components/PageContent";
+import PageDefault from "../../../components/PageDefault";
+import SearchBar from "../../../components/SearchBar";
+import Table from "../../../components/Table";
 
 import Colors from "../../../constants/Colors";
 
@@ -44,6 +47,16 @@ export const TestsDatabase = () => {
                 <LongButton path="/" name="Agendar prova" backgroundColor={Colors.lightGrey} textColor={Colors.black} />
                 <LongButton path="/" name="Nova prova" backgroundColor={Colors.secondaryGreen} textColor={Colors.white} icon />
             </Container>
+            <Table
+                hasHeader={false}
+                selectionButton={true}
+                rows={[["Título: P1 de Gestão", "Data: 08/19/2021"], 
+                ["Título: P2 de Gestão", "Data: 10/10/2021"], 
+                ["Título: P2 de Cálculo", "Data: 21/10/2021"], 
+                ["Título: P3 de Gestão", "Data: 22/10/2021"]]}
+                hasButtons={true}
+                buttons={[<EditButton path='/'/>, <DeleteButton/>]}
+            />
         </PageContent>
     </PageDefault>
   );
