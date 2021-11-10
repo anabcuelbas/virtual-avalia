@@ -8,6 +8,6 @@ const Header = styled.div`
     max-height: 100px;
     background-color: ${Colors.darkPrimaryGreen};
     padding: 15px 10px 15px 10px;
-`
+`;
 
 export default Header;
