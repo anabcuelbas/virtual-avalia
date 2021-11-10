@@ -8,6 +8,7 @@ const Colors = {
     accentRed: '#EF3E36',
     white: '#FCFCFC',
     black: '#000000',
+    cream: '#F7EDE2',
 }
 
 export default Colors;

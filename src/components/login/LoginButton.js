@@ -7,6 +7,7 @@ const LoginButton = styled.button`
     background: ${props => props.color};
     padding: 18px;
     border-radius: 8px;
+    margin: 10px;
     box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
     border: none;
     width: 100%;
