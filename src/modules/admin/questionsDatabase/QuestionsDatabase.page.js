@@ -22,10 +22,11 @@ export const QuestionsDatabase = () => {
                 />
                 <div className='button-container'>
                     <LongButton
-                        path='/'
+                        path='/admin-create-question'
                         name='Cadastrar questão'
                         backgroundColor='#30C23F'
                         textColor='white'
+                        icon
                     />
                 </div>
             </div>
