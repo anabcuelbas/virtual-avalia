@@ -10,6 +10,8 @@ import DeleteButton from '../../../components/DeleteButton'
 import LongButton from '../../../components/LongButton'
 import SearchBar from '../../../components/SearchBar'
 
+import Colors from "../../../constants/Colors";
+
 export const QuestionsDatabase = () => {
   return (
     <PageDefault>
@@ -25,6 +27,9 @@ export const QuestionsDatabase = () => {
             <LongButton
                 path='/'
                 name='Cadastrar questão'
+                backgroundColor={Colors.secondaryGreen}
+                textColor={Colors.white}
+                icon
             />
 
             <Table

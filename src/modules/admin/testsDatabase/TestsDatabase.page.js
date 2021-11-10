@@ -14,11 +14,21 @@ const Container = styled.div`
     display: flex;
     flex-direction: row;
 
+    .long-button {
+        margin: 0 0 0 1em;
+    }
+
     @media (max-width: 750px) {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        height: 5rem;
+        height: 8rem;
+
+        .long-button {
+            box-sizing: border-box;
+            margin: 1em 0 0 0;
+            width: 80vw;
+        }
     }
 `;
 
@@ -31,7 +41,8 @@ export const TestsDatabase = () => {
         <PageContent>
             <Container>
                 <SearchBar placeholder="Pesquisar por título" />
-                <LongButton path="/" name="Cadastrar Questão" color={Colors.secondaryGreen} icon />
+                <LongButton path="/" name="Agendar prova" backgroundColor={Colors.lightGrey} textColor={Colors.black} />
+                <LongButton path="/" name="Nova prova" backgroundColor={Colors.secondaryGreen} textColor={Colors.white} icon />
             </Container>
         </PageContent>
     </PageDefault>

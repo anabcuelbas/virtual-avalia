@@ -11,7 +11,7 @@ class LongButton extends Component {
     render() {
         return (
             <Link to={this.props.path} style={{ textDecoration: 'none' }}>
-                <div className='long-button' style={{ backgroundColor: this.props.color }}>
+                <div className='long-button' style={{ backgroundColor: this.props.backgroundColor, color: this.props.textColor }}>
                     <p>{this.props.name}</p>
                     { this.props.icon && <AddIcon /> } 
                 </div>
@@ -24,7 +24,8 @@ class LongButton extends Component {
 LongButton.propTypes = {
     path: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
-    color: PropTypes.string.isRequired
+    backgroundColor: PropTypes.string.isRequired,
+    textColor: PropTypes.string.isRequired
 }
 
 export default LongButton;

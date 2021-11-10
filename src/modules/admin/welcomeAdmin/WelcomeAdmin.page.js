@@ -1,3 +1,5 @@
+import { useHistory } from "react-router-dom";
+
 import Header from "../../../components/header/Header";
 import PageDefault from "../../../components/PageDefault";
 import HeaderTitle from "../../../components/header/HeaderTitle";
@@ -9,6 +11,16 @@ import MenuButton, {
 import Colors from "../../../constants/Colors";
 
 export const WelcomeAdmin = () => {
+  const history = useHistory();
+
+  const handleQuestionsClicked = () => {
+    history.push("/admin-questions");
+  };
+
+  const handleTestsClicked = () => {
+    history.push("/admin-tests");
+  };
+
   return (
     <PageDefault>
       <Header>
@@ -16,8 +28,8 @@ export const WelcomeAdmin = () => {
       </Header>
       <H1>Bem-Vindo</H1>
       <MenuContainer>
-        <MenuButton color={Colors.secondaryGreen}>Questões</MenuButton>
-        <MenuButton color={Colors.secondaryGreen}>Provas</MenuButton>
+        <MenuButton color={Colors.secondaryGreen} onClick={handleQuestionsClicked}>Questões</MenuButton>
+        <MenuButton color={Colors.secondaryGreen} onClick={handleTestsClicked}>Provas</MenuButton>
         <MenuButton color={Colors.secondaryGreen}>
           Notas e Submissões
         </MenuButton>
