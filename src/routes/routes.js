@@ -1,6 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import { AdminLogin } from "../modules/admin/adminLogin";
+import { CreateQuestion } from "../modules/admin/createQuestion";
 import { QuestionsDatabase } from "../modules/admin/questionsDatabase";
 import { TestsDatabase } from "../modules/admin/testsDatabase";
 import { HomeScreen } from "../modules/homePage";
@@ -13,6 +14,7 @@ export const Routes = () => {
       <Route path="/admin-login" component={AdminLogin} />
       <Route path="/admin-questions" component={QuestionsDatabase} />
       <Route path="/admin-tests" component={TestsDatabase} />
+      <Route path="/admin-create-question" component={CreateQuestion} />
       <Route path="/student-login" component={StudentLogin} />
     </Switch>
   );
