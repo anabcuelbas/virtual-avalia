@@ -8,6 +8,7 @@
 }
 
 .table-background {
+    box-sizing: border-box;
     width: 100%;
     background-color: #CFE7D1;
     display: flex;
@@ -20,9 +21,11 @@
 .table-header {
     width: 100%;
     border-radius: 5rem;
-    background-color: #819A83;
+    background-color: #4A7A3A;
+    color: #FFFFFF;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 /*Olá, amige! Antes de mexer nesse arquivo, tenha em mente q 

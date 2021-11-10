@@ -21,6 +21,10 @@ export const WelcomeAdmin = () => {
     history.push("/admin-tests");
   };
 
+  const handleGradesClicked = () => {
+    history.push("/admin-grades");
+  };
+
   return (
     <PageDefault>
       <Header>
@@ -30,7 +34,7 @@ export const WelcomeAdmin = () => {
       <MenuContainer>
         <MenuButton color={Colors.secondaryGreen} onClick={handleQuestionsClicked}>Questões</MenuButton>
         <MenuButton color={Colors.secondaryGreen} onClick={handleTestsClicked}>Provas</MenuButton>
-        <MenuButton color={Colors.secondaryGreen}>
+        <MenuButton color={Colors.secondaryGreen} onClick={handleGradesClicked}>
           Notas e Submissões
         </MenuButton>
         <LogoutButton color={Colors.accentOrange}>Logout</LogoutButton>

@@ -7,6 +7,7 @@ import { TestsDatabase } from "../modules/admin/testsDatabase";
 import { HomeScreen } from "../modules/homePage";
 import { StudentLogin } from "../modules/student/studentLogin";
 import { WelcomeAdmin } from "../modules/admin/welcomeAdmin";
+import { GradesDatabase } from "../modules/admin/gradesDatabase/GradesDatabase.page";
 
 export const Routes = () => {
   return (
@@ -16,6 +17,7 @@ export const Routes = () => {
       <Route path="/admin-questions" component={QuestionsDatabase} />
       <Route path="/admin-tests" component={TestsDatabase} />
       <Route path="/admin-create-question" component={CreateQuestion} />
+      <Route path="/admin-grades" component={GradesDatabase} />
       <Route path="/student-login" component={StudentLogin} />
       <Route path="/welcome-admin" component={WelcomeAdmin} />
     </Switch>
