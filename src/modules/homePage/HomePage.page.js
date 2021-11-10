@@ -30,7 +30,7 @@ export const HomeScreen = () => {
         <TitleMobile />
       </LoginTitleContainerMobile>
       <LoginContainer>
-        <LoginButton color={Colors.primaryGreen} onClick={handleAdminLogin}>
+        <LoginButton color={Colors.accentOrange} onClick={handleAdminLogin}>
           Faça login como Professor
         </LoginButton>
         <LoginButton color={Colors.primaryGreen} onClick={handleStudentLogin}>
