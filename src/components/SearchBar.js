@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './styles/SearchBar.css'
-import { ReactComponent as SearchIcon } from '../assets/Search.svg';
+import { ReactComponent as SearchIcon } from '../assets/search.svg';
 
 class SearchBar extends Component {
 
