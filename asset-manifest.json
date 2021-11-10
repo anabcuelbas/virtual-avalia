@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/virtual-avalia/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/virtual-avalia/static/js/main.462cce6d.chunk.js",
-    "main.js.map": "/virtual-avalia/static/js/main.462cce6d.chunk.js.map",
+    "main.js": "/virtual-avalia/static/js/main.c6def303.chunk.js",
+    "main.js.map": "/virtual-avalia/static/js/main.c6def303.chunk.js.map",
     "runtime-main.js": "/virtual-avalia/static/js/runtime-main.1f086f99.js",
     "runtime-main.js.map": "/virtual-avalia/static/js/runtime-main.1f086f99.js.map",
     "static/js/2.5ca7a1c5.chunk.js": "/virtual-avalia/static/js/2.5ca7a1c5.chunk.js",
@@ -12,6 +12,8 @@
     "index.html": "/virtual-avalia/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/virtual-avalia/static/css/main.6dea0f05.chunk.css.map",
     "static/js/2.5ca7a1c5.chunk.js.LICENSE.txt": "/virtual-avalia/static/js/2.5ca7a1c5.chunk.js.LICENSE.txt",
+    "static/media/MobileTitleGreen.e94c7b73.svg": "/virtual-avalia/static/media/MobileTitleGreen.e94c7b73.svg",
+    "static/media/MobileTitleWhite.e9e74369.svg": "/virtual-avalia/static/media/MobileTitleWhite.e9e74369.svg",
     "static/media/TitleGreen.a37e8510.svg": "/virtual-avalia/static/media/TitleGreen.a37e8510.svg",
     "static/media/TitleWhite.467d8c90.svg": "/virtual-avalia/static/media/TitleWhite.467d8c90.svg"
   },
@@ -19,6 +21,6 @@
     "static/js/runtime-main.1f086f99.js",
     "static/js/2.5ca7a1c5.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.462cce6d.chunk.js"
+    "static/js/main.c6def303.chunk.js"
   ]
 }
