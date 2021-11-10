@@ -4,6 +4,7 @@ const Colors = {
     darkPrimaryGreen: '#3B632E',
     secondaryGreen: '#30C23F',
     darkSecondaryGreen: '#2AAC37',
+    backgroundGreen: '#CFE7D1',
     accentOrange: '#F6BD60',
     accentRed: '#EF3E36',
     lightBlue: '#CFE7D1',
