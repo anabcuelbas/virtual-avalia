@@ -14,6 +14,7 @@ const MenuContainer = styled.div`
     margin-bottom: 50px;
     border-radius: 20px;
     background: ${Colors.backgroundGreen};
+    position: relative;
 `;
 
 export default MenuContainer;
