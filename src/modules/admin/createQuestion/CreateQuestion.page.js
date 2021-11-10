@@ -59,7 +59,7 @@ export const CreateQuestion = () => {
                 </Select>
               </div>
             </InputRow>
-            {type == 'alternativa' && (<>
+            {type === 'alternativa' && (<>
               <InputRow>
                 <div>
                   <label>Enunciado</label>
