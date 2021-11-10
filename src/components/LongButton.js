@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types';
+
+import { ReactComponent as AddIcon } from '../assets/add_circle.svg';
+
 import './styles/Buttons.css'
 
-class LongGreenButton extends Component {
+class LongButton extends Component {
 
     render() {
         return (
             <Link to={this.props.path} style={{ textDecoration: 'none' }}>
-                <div className='long-green-button'>
+                <div className='long-button' style={{ backgroundColor: this.props.color }}>
                     <p>{this.props.name}</p>
+                    { this.props.icon && <AddIcon /> } 
                 </div>
             </Link>
         );
@@ -17,9 +21,10 @@ class LongGreenButton extends Component {
 
 };
 
-LongGreenButton.propTypes = {
+LongButton.propTypes = {
     path: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired
+    name: PropTypes.string.isRequired,
+    color: PropTypes.string.isRequired
 }
 
-export default LongGreenButton;
+export default LongButton;

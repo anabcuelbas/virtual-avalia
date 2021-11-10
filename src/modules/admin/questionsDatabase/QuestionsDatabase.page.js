@@ -7,7 +7,7 @@ import HeaderTitle from  '../../../components/header/HeaderTitle'
 import Table from '../../../components/Table'
 import EditButton from '../../../components/EditButton'
 import DeleteButton from '../../../components/DeleteButton'
-import LongGreenButton from '../../../components/LongGreenButton'
+import LongButton from '../../../components/LongButton'
 import SearchBar from '../../../components/SearchBar'
 
 export const QuestionsDatabase = () => {
@@ -22,7 +22,7 @@ export const QuestionsDatabase = () => {
             <SearchBar
                 placeholder='Pesquisar pelo nome da questão'
             />
-            <LongGreenButton
+            <LongButton
                 path='/'
                 name='Cadastrar questão'
             />
