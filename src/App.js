@@ -4,7 +4,7 @@ import { Routes } from './routes';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/virtual-avalia">
       <Routes/>
     </Router>
   );
