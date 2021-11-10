@@ -42,7 +42,7 @@ gi ;) */
 
 .item-text {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .item-buttons {
@@ -64,6 +64,6 @@ p {
 @media (max-width: 750px) {
     .item-text {
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
     }
 }
