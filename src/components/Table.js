@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './styles/Table.css'
+import CheckBox from './CheckBox';
 
 class Table extends Component {
 
@@ -16,6 +17,7 @@ class Table extends Component {
 
                     {this.props.rows.map((el) => (
                         <div className="table-item">
+                            {this.props.selectionButton && <CheckBox />}
                             <div className="item-text">
                                 {el.map(function (value, index, array) {
                                     return <p key={index}>{value}</p>
@@ -44,7 +46,8 @@ Table.propTypes = {
     columns: PropTypes.array,
     rows: PropTypes.array.isRequired,
     hasButtons: PropTypes.bool.isRequired,
-    buttons: PropTypes.array
+    buttons: PropTypes.array,
+    selectionButton: PropTypes.bool
 }
 
 export default Table;
