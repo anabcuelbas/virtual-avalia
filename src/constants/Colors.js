@@ -6,8 +6,10 @@ const Colors = {
     darkSecondaryGreen: '#2AAC37',
     accentOrange: '#F6BD60',
     accentRed: '#EF3E36',
+    lightBlue: '#CFE7D1',
     white: '#FCFCFC',
     black: '#000000',
+    grey: '#8C8C8C',
     cream: '#F7EDE2',
 }
 
