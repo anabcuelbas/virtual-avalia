@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import Colors from "../constants/Colors";
+import Colors from "../../constants/Colors";
 
 
 const Header = styled.div`

@@ -1,4 +1,4 @@
-import { ReactComponent as Title } from "../assets/TitleWhite.svg";
+import { ReactComponent as Title } from "../../assets/TitleWhite.svg";
 
 import styled from "styled-components";
 
