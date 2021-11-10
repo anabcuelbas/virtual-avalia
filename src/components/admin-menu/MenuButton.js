@@ -24,15 +24,3 @@ const MenuButton = styled.button`
 `;
 
 export default MenuButton;
-
-export const LogoutButton = styled(MenuButton)`
-  position: relative;
-
-  &:hover {
-    background: ${(props) =>
-      props.color === Colors.primaryGreen
-        ? Colors.accentOrange
-        : Colors.accentRed};
-  }
-`;
-
