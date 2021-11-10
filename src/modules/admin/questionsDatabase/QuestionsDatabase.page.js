@@ -4,7 +4,6 @@ import './QuestionsDb.css';
 import PageDefault from "../../../components/PageDefault";
 import PageContent from "../../../components/PageContent";
 import Header from  '../../../components/header/Header'
-import HeaderTitle from  '../../../components/header/HeaderTitle'
 import Table from '../../../components/Table'
 import EditButton from '../../../components/EditButton'
 import DeleteButton from '../../../components/DeleteButton'
@@ -14,9 +13,7 @@ import SearchBar from '../../../components/SearchBar'
 export const QuestionsDatabase = () => {
   return (
     <PageDefault>
-        <Header>
-            <HeaderTitle/>
-        </Header>
+        <Header />
 
         <PageContent>
             <div className='top-items'>

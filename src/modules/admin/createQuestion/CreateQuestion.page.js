@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 import PageDefault from "../../../components/PageDefault";
 import Header from "../../../components/header/Header";
-import HeaderTitle from "../../../components/header/HeaderTitle";
 import { Fieldset } from "../../../components/form/Fieldset";
 import { Select } from "../../../components/form/Select";
 import { Separator } from "../../../components/form/Separator";
@@ -16,9 +15,7 @@ export const CreateQuestion = () => {
 
   return (
     <PageDefault>
-      <Header>
-        <HeaderTitle />
-      </Header>
+      <Header />
 
       <Main>
         <form>

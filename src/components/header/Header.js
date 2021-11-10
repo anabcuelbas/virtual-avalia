@@ -1,13 +1,28 @@
 import styled from "styled-components";
 
 import Colors from "../../constants/Colors";
+import HeaderTitle from "./HeaderTitle";
+import HeaderTitleMobile from "./HeaderTitleMobile";
+import LongButton from "../LongButton";
 
 
-const Header = styled.div`
+const HeaderStyle = styled.div`
     display: flex;
-    max-height: 100px;
+    height: 80px;
     background-color: ${Colors.darkPrimaryGreen};
-    padding: 15px 10px 15px 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
 `;
+
+const Header = () => {
+    return (
+        <HeaderStyle>
+            <HeaderTitle />
+            <HeaderTitleMobile />
+            <LongButton path="/" name="Logout" backgroundColor={Colors.secondaryGreen} textColor={Colors.white} />
+        </HeaderStyle>
+    );
+}
 
 export default Header;
