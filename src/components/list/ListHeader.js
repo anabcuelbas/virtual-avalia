@@ -2,14 +2,15 @@ import styled from "styled-components";
 
 import Colors from "../../constants/Colors";
 
-
-const Header = styled.div`
+const ListHeader = styled.div`
     display: flex;
     flex: 0;
-    max-height: 100px;
+    flex-direction: row;
     background-color: ${Colors.darkPrimaryGreen};
-    padding: 15px 10px 15px 10px;
-    position: relative;
+    margin: 25px;
+    padding: 2px;
+    width: 90%;
+    border-radius: 10px;
 `;
 
-export default Header;
+export default ListHeader;

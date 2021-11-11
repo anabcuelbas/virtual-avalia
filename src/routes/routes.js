@@ -8,6 +8,7 @@ import { HomeScreen } from "../modules/homePage";
 import { StudentLogin } from "../modules/student/studentLogin";
 import { WelcomeAdmin } from "../modules/admin/welcomeAdmin";
 import { GradesDatabase } from "../modules/admin/gradesDatabase/GradesDatabase.page";
+import { TestPage } from "../modules/student/testsPage";
 
 export const Routes = () => {
   return (
@@ -20,6 +21,7 @@ export const Routes = () => {
       <Route path="/admin-grades" component={GradesDatabase} />
       <Route path="/student-login" component={StudentLogin} />
       <Route path="/welcome-admin" component={WelcomeAdmin} />
+      <Route path="/tests-list" component={TestPage} />
     </Switch>
   );
 };
