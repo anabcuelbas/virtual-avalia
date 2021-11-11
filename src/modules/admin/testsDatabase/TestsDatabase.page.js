@@ -4,7 +4,6 @@ import styled from "styled-components";
 import EditButton from "../../../components/EditButton";
 import DeleteButton from "../../../components/DeleteButton";
 import Header from "../../../components/header/Header";
-import HeaderTitle from "../../../components/header/HeaderTitle"
 import LongButton from "../../../components/LongButton";
 import PageContent from "../../../components/PageContent";
 import PageDefault from "../../../components/PageDefault";
@@ -35,26 +34,26 @@ const Container = styled.div`
 `;
 
 export const TestsDatabase = () => {
-  return (
-    <PageDefault>
-        <Header />
-        <PageContent>
-            <Container>
-                <SearchBar placeholder="Pesquisar por título" />
-                <LongButton path="/" name="Agendar prova" backgroundColor={Colors.lightGrey} textColor={Colors.black} />
-                <LongButton path="/" name="Nova prova" backgroundColor={Colors.secondaryGreen} textColor={Colors.white} icon />
-            </Container>
-            <Table
-                hasHeader={false}
-                selectionButton={true}
-                rows={[["Título: P1 de Gestão", "Data: 08/19/2021"], 
-                ["Título: P2 de Gestão", "Data: 10/10/2021"], 
-                ["Título: P2 de Cálculo", "Data: 21/10/2021"], 
-                ["Título: P3 de Gestão", "Data: 22/10/2021"]]}
-                hasButtons={true}
-                buttons={[<EditButton path='/'/>, <DeleteButton/>]}
-            />
-        </PageContent>
-    </PageDefault>
-  );
+    return (
+        <PageDefault>
+            <Header />
+            <PageContent>
+                <Container>
+                    <SearchBar placeholder="Pesquisar por título" />
+                    <LongButton path="/" name="Agendar prova" backgroundColor={Colors.lightGrey} textColor={Colors.black} />
+                    <LongButton path="/" name="Nova prova" backgroundColor={Colors.secondaryGreen} textColor={Colors.white} icon />
+                </Container>
+                <Table
+                    hasHeader={false}
+                    selectionButton={true}
+                    rows={[["Título: P1 de Gestão", "Data: 08/19/2021"],
+                    ["Título: P2 de Gestão", "Data: 10/10/2021"],
+                    ["Título: P2 de Cálculo", "Data: 21/10/2021"],
+                    ["Título: P3 de Gestão", "Data: 22/10/2021"]]}
+                    hasButtons={true}
+                    buttons={[<EditButton path='/' />, <DeleteButton />]}
+                />
+            </PageContent>
+        </PageDefault>
+    );
 };

@@ -8,6 +8,7 @@ import { HomeScreen } from "../modules/homePage";
 import { StudentLogin } from "../modules/student/studentLogin";
 import { WelcomeAdmin } from "../modules/admin/welcomeAdmin";
 import { GradesDatabase } from "../modules/admin/gradesDatabase/GradesDatabase.page";
+import StudentTestAttempt from "../modules/student/studentTestAttempt/StudentTestAttempt.page";
 
 export const Routes = () => {
   return (
@@ -19,6 +20,7 @@ export const Routes = () => {
       <Route path="/admin-create-question" component={CreateQuestion} />
       <Route path="/admin-grades" component={GradesDatabase} />
       <Route path="/student-login" component={StudentLogin} />
+      <Route path="/student-test-attempt" component={StudentTestAttempt} />
       <Route path="/welcome-admin" component={WelcomeAdmin} />
     </Switch>
   );
