@@ -10,6 +10,7 @@ import { StudentLogin } from "../modules/student/studentLogin";
 import { WelcomeAdmin } from "../modules/admin/welcomeAdmin";
 import { GradesDatabase } from "../modules/admin/gradesDatabase/GradesDatabase.page";
 import { StudentTestAttempt } from "../modules/student/studentTestAttempt/";
+import { StudentTestCheck } from "../modules/student/StudentTestCheck/";
 import { ViewSubmission } from "../modules/admin/viewSubmission";
 import { ScheduleTests } from "../modules/admin/scheduleTests";
 
@@ -28,6 +29,7 @@ export const Routes = () => {
       <Route path="/admin-schedule" component={ScheduleTests} />
       <Route path="/student-login" component={StudentLogin} />
       <Route path="/student-test-attempt" component={StudentTestAttempt} />
+      <Route path="/student-test-check" component={StudentTestCheck} />
     </Switch >
   );
 };
