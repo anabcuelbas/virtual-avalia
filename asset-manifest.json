@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/virtual-avalia/static/css/main.d6104811.chunk.css",
-    "main.js": "/virtual-avalia/static/js/main.ba4c5321.chunk.js",
-    "main.js.map": "/virtual-avalia/static/js/main.ba4c5321.chunk.js.map",
+    "main.js": "/virtual-avalia/static/js/main.a84cb025.chunk.js",
+    "main.js.map": "/virtual-avalia/static/js/main.a84cb025.chunk.js.map",
     "runtime-main.js": "/virtual-avalia/static/js/runtime-main.c78be0fe.js",
     "runtime-main.js.map": "/virtual-avalia/static/js/runtime-main.c78be0fe.js.map",
     "static/js/2.596114a7.chunk.js": "/virtual-avalia/static/js/2.596114a7.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.c78be0fe.js",
     "static/js/2.596114a7.chunk.js",
     "static/css/main.d6104811.chunk.css",
-    "static/js/main.ba4c5321.chunk.js"
+    "static/js/main.a84cb025.chunk.js"
   ]
 }
