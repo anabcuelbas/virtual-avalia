@@ -42,7 +42,7 @@ export function StudentTestAttempt() {
           <Floating>
             <LongButton
               name="Submeter"
-              path="#"
+              path="/tests-list"
               backgroundColor={Colors.secondaryGreen}
               textColor={Colors.white}
             />
