@@ -1,18 +1,10 @@
 import styled from "styled-components";
 import Header from "../../../components/header/Header";
-import LongButton from "../../../components/LongButton";
 import PageContent from "../../../components/PageContent";
 import PageDefault from "../../../components/PageDefault";
 import TestContainer from "../../../components/test/TestContainer";
 import TestQuestion from "../../../components/test/TestQuestion";
-import Colors from "../../../constants/Colors";
 import H1 from "../../../constants/Typography";
-
-const Floating = styled.div`
-  position: fixed;
-  bottom: 0;
-  right: 70px;
-`
 
 const CustomTestContainer = styled(TestContainer)`
   width: 100%;
