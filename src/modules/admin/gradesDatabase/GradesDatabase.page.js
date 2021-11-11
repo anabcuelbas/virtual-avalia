@@ -28,7 +28,7 @@ export const GradesDatabase = () => {
                 hasButtons={true}
                 buttons={[ 
                             <LongButton 
-                                path="/" 
+                                path="/admin-view-submission" 
                                 name="Visualizar submissão" 
                                 backgroundColor={Colors.secondaryGreen} 
                                 textColor={Colors.white} 

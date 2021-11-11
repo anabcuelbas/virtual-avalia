@@ -37,9 +37,7 @@ const Container = styled.div`
 export const TestsDatabase = () => {
   return (
     <PageDefault>
-        <Header>
-            <HeaderTitle />
-        </Header>
+        <Header />
         <PageContent>
             <Container>
                 <SearchBar placeholder="Pesquisar por título" />

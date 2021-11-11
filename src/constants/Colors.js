@@ -12,7 +12,8 @@ const Colors = {
     black: '#000000',
     grey: '#8C8C8C',
     cream: '#F7EDE2',
-    lightGrey: '#DADADA'
+    lightGrey: '#DADADA',
+    backgroundGrey: '#F0F0F0'
 }
 
 export default Colors;
