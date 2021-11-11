@@ -32,26 +32,17 @@ export function StudentTestCheck() {
         <CustomTestContainer>
           <H1>P1 de Gestão</H1>
           <TestQuestion
-            question="Qual dos itens a seguir não é uma habilidade geral de gerenciamento?Você está de acordo com essa nota?"
+            question="Nota: 7. Você está de acordo com essa nota?"
             multiple
-            items={['Motivar a equipe de projeto.', 'Comprar e contratar.', 'Vendas e marketing.', 'Contratos e legislação comercial.']}
+            items={['Sim', 'Não']}
           />
           <TestQuestion
             question="Qual dos itens a seguir não é uma habilidade geral de gerenciamento?"
             multiple
             items={['Motivar a equipe de projeto.', 'Comprar e contratar.', 'Vendas e marketing.', 'Contratos e legislação comercial.']}
+            rightIndex={0}
+            checkedIndex={1}
           />
-          <TestQuestion
-            question="O que é um programa no contexto da gestão de projetos?"
-          />
-          <Floating>
-            <LongButton
-              name="Submeter"
-              path="#"
-              backgroundColor={Colors.secondaryGreen}
-              textColor={Colors.white}
-            />
-          </Floating>
         </CustomTestContainer>
       </PageContent>
     </PageDefault>

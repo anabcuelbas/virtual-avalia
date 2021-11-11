@@ -31,6 +31,7 @@ const ItemContainer = styled.label`
 
 const Item = styled.p`
     font-size: 1.2em;
+    color: ${props => props.color};
 `;
 
 const TextBox = styled.textarea`
@@ -46,13 +47,23 @@ const TextBox = styled.textarea`
 `;
 
 const TestQuestion = (props) => {
+    console.log({ props })
     return (
         <TestQuestionContainer>
             <Question>{props.question}</Question>
-            {props.multiple && props.items.map((el) => (
-                <ItemContainer>
-                    <input type="radio" name={props.question} />
-                    <Item>{el}</Item>
+            {props.multiple && props.items.map((el, i) => (
+                <ItemContainer key={i}>
+                    <input
+                        type="radio"
+                        name={props.question}
+                        defaultChecked={props.checkedIndex === i}
+                    />
+                    {props.rightIndex === i ?
+                        <Item color={Colors.secondaryGreen}>{el}</Item> :
+                        props.checkedIndex === i ?
+                            <Item color={Colors.accentRed}>{el}</Item> :
+                            <Item color={Colors.black}>{el}</Item>
+                    }
                 </ItemContainer>
             ))}
             {!props.multiple &&
