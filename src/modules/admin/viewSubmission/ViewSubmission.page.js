@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
 import Header from "../../../components/header/Header";
@@ -20,6 +20,8 @@ const Text = styled.p`
 `;
 
 export const ViewSubmission = () => {
+    const [nota, setNota] = useState('0.0');
+
     return (
         <PageDefault>
             <Header />
