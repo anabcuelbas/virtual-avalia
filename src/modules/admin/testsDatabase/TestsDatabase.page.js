@@ -41,7 +41,7 @@ export const TestsDatabase = () => {
             <Container>
                 <SearchBar placeholder="Pesquisar por título" />
                 <LongButton path="/admin-schedule" name="Agendar prova" backgroundColor={Colors.lightGrey} textColor={Colors.black} />
-                <LongButton path="/" name="Nova prova" backgroundColor={Colors.secondaryGreen} textColor={Colors.white} icon />
+                <LongButton path="/admin-generate-tests" name="Nova prova" backgroundColor={Colors.secondaryGreen} textColor={Colors.white} icon />
             </Container>
             <Table
                 hasHeader={false}
