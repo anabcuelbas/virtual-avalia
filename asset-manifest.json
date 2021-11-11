@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/virtual-avalia/static/css/main.d6104811.chunk.css",
-    "main.js": "/virtual-avalia/static/js/main.a84cb025.chunk.js",
-    "main.js.map": "/virtual-avalia/static/js/main.a84cb025.chunk.js.map",
-    "runtime-main.js": "/virtual-avalia/static/js/runtime-main.c78be0fe.js",
-    "runtime-main.js.map": "/virtual-avalia/static/js/runtime-main.c78be0fe.js.map",
-    "static/js/2.596114a7.chunk.js": "/virtual-avalia/static/js/2.596114a7.chunk.js",
-    "static/js/2.596114a7.chunk.js.map": "/virtual-avalia/static/js/2.596114a7.chunk.js.map",
-    "static/js/3.4f1d2b05.chunk.js": "/virtual-avalia/static/js/3.4f1d2b05.chunk.js",
-    "static/js/3.4f1d2b05.chunk.js.map": "/virtual-avalia/static/js/3.4f1d2b05.chunk.js.map",
+    "main.css": "/virtual-avalia/static/css/main.1e9e522e.chunk.css",
+    "main.js": "/virtual-avalia/static/js/main.b4505521.chunk.js",
+    "main.js.map": "/virtual-avalia/static/js/main.b4505521.chunk.js.map",
+    "runtime-main.js": "/virtual-avalia/static/js/runtime-main.7da1ae71.js",
+    "runtime-main.js.map": "/virtual-avalia/static/js/runtime-main.7da1ae71.js.map",
+    "static/js/2.bdbf79d0.chunk.js": "/virtual-avalia/static/js/2.bdbf79d0.chunk.js",
+    "static/js/2.bdbf79d0.chunk.js.map": "/virtual-avalia/static/js/2.bdbf79d0.chunk.js.map",
+    "static/js/3.e160c547.chunk.js": "/virtual-avalia/static/js/3.e160c547.chunk.js",
+    "static/js/3.e160c547.chunk.js.map": "/virtual-avalia/static/js/3.e160c547.chunk.js.map",
     "index.html": "/virtual-avalia/index.html",
-    "static/css/main.d6104811.chunk.css.map": "/virtual-avalia/static/css/main.d6104811.chunk.css.map",
-    "static/js/2.596114a7.chunk.js.LICENSE.txt": "/virtual-avalia/static/js/2.596114a7.chunk.js.LICENSE.txt",
+    "static/css/main.1e9e522e.chunk.css.map": "/virtual-avalia/static/css/main.1e9e522e.chunk.css.map",
+    "static/js/2.bdbf79d0.chunk.js.LICENSE.txt": "/virtual-avalia/static/js/2.bdbf79d0.chunk.js.LICENSE.txt",
     "static/media/HeaderTitleDesktop.84d3b792.svg": "/virtual-avalia/static/media/HeaderTitleDesktop.84d3b792.svg",
     "static/media/HeaderTitleMobile.c3d3a398.svg": "/virtual-avalia/static/media/HeaderTitleMobile.c3d3a398.svg",
+    "static/media/Loading.29654c57.svg": "/virtual-avalia/static/media/Loading.29654c57.svg",
     "static/media/MobileTitleGreen.e94c7b73.svg": "/virtual-avalia/static/media/MobileTitleGreen.e94c7b73.svg",
     "static/media/MobileTitleWhite.e9e74369.svg": "/virtual-avalia/static/media/MobileTitleWhite.e9e74369.svg",
     "static/media/Pencil.e8b6cab9.svg": "/virtual-avalia/static/media/Pencil.e8b6cab9.svg",
@@ -24,9 +25,9 @@
     "static/media/search.caa0fe4f.svg": "/virtual-avalia/static/media/search.caa0fe4f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c78be0fe.js",
-    "static/js/2.596114a7.chunk.js",
-    "static/css/main.d6104811.chunk.css",
-    "static/js/main.a84cb025.chunk.js"
+    "static/js/runtime-main.7da1ae71.js",
+    "static/js/2.bdbf79d0.chunk.js",
+    "static/css/main.1e9e522e.chunk.css",
+    "static/js/main.b4505521.chunk.js"
   ]
 }
