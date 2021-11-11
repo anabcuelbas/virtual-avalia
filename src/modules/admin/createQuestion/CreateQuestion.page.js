@@ -88,15 +88,13 @@ export const CreateQuestion = () => {
                     />
                   </RadioTextGroup>
                 ))}
-                <span onClick={() => setAlternatives([...alternatives, ''])}>
-                  <LongButton
-                    path="#"
-                    name="Nova alternativa"
-                    backgroundColor={Colors.secondaryGreen}
-                    textColor={Colors.white}
-                    icon
-                  />
-                </span>
+                <LongButton
+                  onClick={() => setAlternatives([...alternatives, ''])}
+                  name="Nova alternativa"
+                  backgroundColor={Colors.secondaryGreen}
+                  textColor={Colors.white}
+                  icon
+                />
               </>}
 
               <br />
