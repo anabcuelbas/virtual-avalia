@@ -45,17 +45,20 @@ export const ViewSubmission = () => {
                 </div>
                 <TestQuestionSolved
                     multiple
-                    question="1. Qual foi o primeiro presidente do Brasil?"
-                    items={["Irineu", "Você", "Não Sabe", "Nem eu"]}
+                    question="1. Espera significa"
+                    items={["Quanto tempo uma atividade pode ser atrasada sem atrasar a data de término do projeto.", 
+                            "Quanto tempo uma atividade pode ser atrasada sem atrasar a data de início mais cedo de sua sucessora.", 
+                            "Tempo de espera.", 
+                            "O produto de um caminho de ida e volta."]}
                     selected={1}
-                    answer={0}
-                    answerDescription="A resposta correta é: Irineu" />
+                    answer={2}
+                    answerDescription="A resposta correta é: Tempo de espera." />
                 <TestQuestionSolved
                     multiple
                     question="2. Selecione a letra A"
                     items={["C", "D", "A", "B"]}
-                    selected={0}
-                    answer={2}
+                    selected={2}
+                    answer={0}
                     answerDescription="A resposta correta é: A" />
                 <TestQuestionSolved
                     evaluate

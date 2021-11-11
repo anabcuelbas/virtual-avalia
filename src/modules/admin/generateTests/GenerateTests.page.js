@@ -107,7 +107,7 @@ export const GenerateTests = () => {
                             <span onClick={gerarProvas}>
                                 <LongButton path="/admin-generate-tests" name="Gerar Novamente" backgroundColor={Colors.accentOrange} textColor={Colors.white} />
                             </span>
-                            <LongButton path="/" name="Salvar" backgroundColor={Colors.secondaryGreen} textColor={Colors.white} />
+                            <LongButton path="/admin-tests" name="Salvar" backgroundColor={Colors.secondaryGreen} textColor={Colors.white} />
                         </div>
                     </Fieldset>
 

@@ -28,7 +28,7 @@ export const CreateQuestion = () => {
           <FieldsetHeader>
             <h1>Nova Questão</h1>
             <LongButton
-              path="#"
+              path="/admin-questions"
               name="Salvar"
               backgroundColor={Colors.secondaryGreen}
               textColor={Colors.white}
@@ -115,7 +115,7 @@ export const CreateQuestion = () => {
           <FieldsetHeader>
             <h1>Fazer Upload</h1>
             <LongButton
-              path="#"
+              path="/admin-questions"
               name="Salvar"
               backgroundColor={Colors.secondaryGreen}
               textColor={Colors.white}
