@@ -2,14 +2,12 @@ import { useHistory } from "react-router-dom";
 
 import Header from "../../../components/header/Header";
 import PageDefault from "../../../components/PageDefault";
-import HeaderTitle from "../../../components/header/HeaderTitle";
 import H1 from "../../../constants/Typography";
 import MenuContainer from "../../../components/admin-menu/MenuContainter";
-import MenuButton, {
-  LogoutButton,
-} from "../../../components/admin-menu/MenuButton";
+import MenuButton from "../../../components/admin-menu/MenuButton";
 import Colors from "../../../constants/Colors";
 import { Separator } from "../../../components/form/Separator";
+import LogoutButton from "../../../components/admin-menu/MenuButton";
 
 export const WelcomeAdmin = () => {
   const history = useHistory();
@@ -28,10 +26,8 @@ export const WelcomeAdmin = () => {
 
   return (
     <PageDefault>
-      <Header>
-        <HeaderTitle />
-      </Header>
-      <H1>Bem-Vindo</H1>
+      <Header />
+      <H1>Bem-vindo</H1>
       <MenuContainer>
         <MenuButton color={Colors.secondaryGreen} onClick={handleQuestionsClicked}>Questões</MenuButton>
         <MenuButton color={Colors.secondaryGreen} onClick={handleTestsClicked}>Provas</MenuButton>

@@ -8,6 +8,7 @@ const ListHeaderButton = styled.button`
     border: 2px solid ${Colors.backgroundGreen};
     padding: 10px;
     font-size: 16px;
+    font-family: Special Elite;
 
     &:hover{
         background-color: ${Colors.backgroundGreen};

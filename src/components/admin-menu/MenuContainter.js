@@ -9,7 +9,8 @@ const MenuContainer = styled.div`
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width: 80%;
+    max-width: 500px;
     align-self: center;
     margin-bottom: 50px;
     border-radius: 20px;

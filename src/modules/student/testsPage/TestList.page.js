@@ -1,38 +1,42 @@
 import Header from "../../../components/header/Header";
-import HeaderTitle from "../../../components/header/HeaderTitle";
-import HeaderLogoutButton from "../../../components/header/HeaderLogoutButton";
 import Colors from "../../../constants/Colors";
 import PageDefault from "../../../components/PageDefault";
 import PageContent from "../../../components/PageContent";
 import H1, { H3 } from "../../../constants/Typography";
-import ListContainer from "../../../components/list/ListContainer";
 import ListButtonContainer from "../../../components/list/ListButtonContainer";
 import ListHeaderButton from "../../../components/list/ListHeaderButton";
-import ListItemContainer from "../../../components/list/ListItemContainer";
-import ListHeader from "../../../components/list/ListHeader";
+import LongButton from "../../../components/LongButton";
+import Table from "../../../components/Table";
 
 export const TestPage = () => {
   return (
     <PageDefault>
-      <Header>
-        <HeaderTitle />
-        <HeaderLogoutButton color={Colors.accentOrange}>
-          Sair
-        </HeaderLogoutButton>
-      </Header>
+      <Header />
       <PageContent>
         <H1>Minhas Provas</H1>
         <ListButtonContainer>
           <ListHeaderButton>Provas Pendentes</ListHeaderButton>
           <ListHeaderButton>Histórico</ListHeaderButton>
         </ListButtonContainer>
-        <ListContainer>
-          <ListHeader>
-              <H3>Nome</H3>
-              <H3>Data de Início</H3>
-          </ListHeader>
-          <ListItemContainer></ListItemContainer>
-        </ListContainer>
+        <Table
+          border-top={0}
+          hasHeader={true}
+          columns={["Nome", "Data de Início", ""]}
+          rows={[
+            ["P1 de Gestão", "14/10/2021 - 14:30"],
+            ["P2 de Cálculo", "12/10/2021 - 12:00"],
+            ["P2 de Gestão", "11/11/2021 - 8:00"],
+          ]}
+          hasButtons={true}
+          buttons={[
+            <LongButton
+              path="/admin-view-submission"
+              name="Acessar"
+              backgroundColor={Colors.accentOrange}
+              textColor={Colors.white}
+            />,
+          ]}
+        />
       </PageContent>
     </PageDefault>
   );
