@@ -27,7 +27,7 @@ export const TestPage = () => {
     setColumnValue(["Nome", ""]);
     setRowValue([["P1 de Álgebra"], ["P1 de Astrologia"]]);
     setButtonText("Ver nota e gabarito");
-    setButtonPath("/");
+    setButtonPath("/student-test-check");
   };
 
   const handleTestsToDoClick = () => {
