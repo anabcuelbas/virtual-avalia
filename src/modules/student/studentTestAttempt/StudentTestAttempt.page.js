@@ -24,7 +24,7 @@ const CustomTestContainer = styled(TestContainer)`
   }
 `
 
-export default function StudentTestAttempt() {
+export function StudentTestAttempt() {
   return (
     <PageDefault>
       <Header />
