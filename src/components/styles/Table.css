@@ -71,3 +71,14 @@ p {
         justify-content: space-around;
     }
 }
+
+@media (max-width: 400px) {
+    .table-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .item-buttons {
+        justify-content: center;
+    }
+}

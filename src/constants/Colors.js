@@ -13,7 +13,8 @@ const Colors = {
     grey: '#8C8C8C',
     cream: '#F7EDE2',
     lightGrey: '#DADADA',
-    backgroundGrey: '#F0F0F0'
+    backgroundGrey: '#F0F0F0',
+    strangeGreen: '#AACDAD'
 }
 
 export default Colors;

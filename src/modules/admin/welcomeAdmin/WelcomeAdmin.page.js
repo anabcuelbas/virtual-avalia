@@ -29,7 +29,9 @@ export const WelcomeAdmin = () => {
       <MenuContainer>
         <MenuButton color={Colors.secondaryGreen} onClick={handleQuestionsClicked}>Questões</MenuButton>
         <MenuButton color={Colors.secondaryGreen} onClick={handleTestsClicked}>Provas</MenuButton>
-        <MenuButton color={Colors.secondaryGreen} onClick={handleGradesClicked}>Notas e Submissões</MenuButton>
+        <MenuButton color={Colors.secondaryGreen} onClick={handleGradesClicked}>
+          Notas e Submissões
+        </MenuButton>
       </MenuContainer>
     </PageDefault>
   );
