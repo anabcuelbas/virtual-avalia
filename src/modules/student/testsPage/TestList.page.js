@@ -20,13 +20,14 @@ export const TestPage = () => {
     ["P2 de Cálculo", "12/10/2021 - 12:00"],
     ["P2 de Gestão", "11/11/2021 - 8:00"],
   ]);
-
   const [buttonText, setButtonText] = useState("Acessar");
+  const [buttonPath, setButtonPath] = useState("/student-test-attempt");
 
   const handleHistoryClick = () => {
     setColumnValue(["Nome", ""]);
     setRowValue([["P1 de Álgebra"], ["P1 de Astrologia"]]);
     setButtonText("Ver nota e gabarito");
+    setButtonPath("/");
   };
 
   const handleTestsToDoClick = () => {
@@ -37,6 +38,7 @@ export const TestPage = () => {
       ["P2 de Gestão", "11/11/2021 - 8:00"],
     ]);
     setButtonText("Acessar");
+    setButtonPath("/student-test-attempt");
   };
 
   return (
@@ -59,7 +61,7 @@ export const TestPage = () => {
           hasButtons={true}
           buttons={[
             <LongButton
-              path="/admin-view-submission"
+              path={buttonPath}
               name={buttonText}
               backgroundColor={Colors.accentOrange}
               textColor={Colors.white}
