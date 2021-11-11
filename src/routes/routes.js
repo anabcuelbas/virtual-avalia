@@ -11,6 +11,7 @@ import { WelcomeAdmin } from "../modules/admin/welcomeAdmin";
 import { GradesDatabase } from "../modules/admin/gradesDatabase/GradesDatabase.page";
 import { StudentTestAttempt } from "../modules/student/studentTestAttempt/";
 import { ViewSubmission } from "../modules/admin/viewSubmission";
+import { ScheduleTests } from "../modules/admin/scheduleTests";
 
 export const Routes = () => {
   return (
@@ -24,6 +25,7 @@ export const Routes = () => {
       <Route path="/admin-create-question" component={CreateQuestion} />
       <Route path="/admin-grades" component={GradesDatabase} />
       <Route path="/admin-view-submission" component={ViewSubmission} />
+      <Route path="/admin-schedule" component={ScheduleTests} />
       <Route path="/student-login" component={StudentLogin} />
       <Route path="/student-test-attempt" component={StudentTestAttempt} />
     </Switch >
