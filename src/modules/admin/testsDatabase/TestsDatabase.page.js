@@ -4,7 +4,6 @@ import styled from "styled-components";
 import EditButton from "../../../components/EditButton";
 import DeleteButton from "../../../components/DeleteButton";
 import Header from "../../../components/header/Header";
-import HeaderTitle from "../../../components/header/HeaderTitle"
 import LongButton from "../../../components/LongButton";
 import PageContent from "../../../components/PageContent";
 import PageDefault from "../../../components/PageDefault";
