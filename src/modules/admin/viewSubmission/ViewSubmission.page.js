@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 
 import Header from "../../../components/header/Header";
@@ -20,8 +20,6 @@ const Text = styled.p`
 `;
 
 export const ViewSubmission = () => {
-    const [nota, setNota] = useState('0.0');
-
     return (
         <PageDefault>
             <Header />
@@ -38,7 +36,7 @@ export const ViewSubmission = () => {
                     </div>
                     <div style={{display: "flex", flexDirection: 'row', alignItems: 'baseline'}}>
                         <Text>Nota total:</Text>
-                        <p style={{fontSize: '1.2rem'}}>{nota}</p>
+                        <p style={{fontSize: '1.2rem'}}>0.0</p>
                     </div>
                     <div style={{display: "flex", flexDirection: 'row', alignItems: 'baseline'}}>
                         <Text>Visto:</Text>
