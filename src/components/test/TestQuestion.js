@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 import Colors from '../../constants/Colors';
-import CheckBox from '../CheckBox';
 
 const TestQuestionContainer = styled.div`
     display: flex;
