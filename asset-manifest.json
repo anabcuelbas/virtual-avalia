@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/virtual-avalia/static/css/main.d6104811.chunk.css",
-    "main.js": "/virtual-avalia/static/js/main.f2f217f8.chunk.js",
-    "main.js.map": "/virtual-avalia/static/js/main.f2f217f8.chunk.js.map",
-    "runtime-main.js": "/virtual-avalia/static/js/runtime-main.706a6889.js",
-    "runtime-main.js.map": "/virtual-avalia/static/js/runtime-main.706a6889.js.map",
-    "static/js/2.e30c2644.chunk.js": "/virtual-avalia/static/js/2.e30c2644.chunk.js",
-    "static/js/2.e30c2644.chunk.js.map": "/virtual-avalia/static/js/2.e30c2644.chunk.js.map",
-    "static/js/3.4812532d.chunk.js": "/virtual-avalia/static/js/3.4812532d.chunk.js",
-    "static/js/3.4812532d.chunk.js.map": "/virtual-avalia/static/js/3.4812532d.chunk.js.map",
+    "main.js": "/virtual-avalia/static/js/main.ba4c5321.chunk.js",
+    "main.js.map": "/virtual-avalia/static/js/main.ba4c5321.chunk.js.map",
+    "runtime-main.js": "/virtual-avalia/static/js/runtime-main.c78be0fe.js",
+    "runtime-main.js.map": "/virtual-avalia/static/js/runtime-main.c78be0fe.js.map",
+    "static/js/2.596114a7.chunk.js": "/virtual-avalia/static/js/2.596114a7.chunk.js",
+    "static/js/2.596114a7.chunk.js.map": "/virtual-avalia/static/js/2.596114a7.chunk.js.map",
+    "static/js/3.4f1d2b05.chunk.js": "/virtual-avalia/static/js/3.4f1d2b05.chunk.js",
+    "static/js/3.4f1d2b05.chunk.js.map": "/virtual-avalia/static/js/3.4f1d2b05.chunk.js.map",
     "index.html": "/virtual-avalia/index.html",
     "static/css/main.d6104811.chunk.css.map": "/virtual-avalia/static/css/main.d6104811.chunk.css.map",
-    "static/js/2.e30c2644.chunk.js.LICENSE.txt": "/virtual-avalia/static/js/2.e30c2644.chunk.js.LICENSE.txt",
+    "static/js/2.596114a7.chunk.js.LICENSE.txt": "/virtual-avalia/static/js/2.596114a7.chunk.js.LICENSE.txt",
     "static/media/HeaderTitleDesktop.84d3b792.svg": "/virtual-avalia/static/media/HeaderTitleDesktop.84d3b792.svg",
     "static/media/HeaderTitleMobile.c3d3a398.svg": "/virtual-avalia/static/media/HeaderTitleMobile.c3d3a398.svg",
     "static/media/MobileTitleGreen.e94c7b73.svg": "/virtual-avalia/static/media/MobileTitleGreen.e94c7b73.svg",
@@ -24,9 +24,9 @@
     "static/media/search.caa0fe4f.svg": "/virtual-avalia/static/media/search.caa0fe4f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.706a6889.js",
-    "static/js/2.e30c2644.chunk.js",
+    "static/js/runtime-main.c78be0fe.js",
+    "static/js/2.596114a7.chunk.js",
     "static/css/main.d6104811.chunk.css",
-    "static/js/main.f2f217f8.chunk.js"
+    "static/js/main.ba4c5321.chunk.js"
   ]
 }
