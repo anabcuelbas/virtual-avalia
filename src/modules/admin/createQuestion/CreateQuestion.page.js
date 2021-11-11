@@ -9,9 +9,15 @@ import { FieldsetHeader } from "../../../components/form/FieldsetHeader";
 import { Main } from "../../../components/form/Main";
 import { InputRow } from "../../../components/form/InputRow";
 import { Input } from "../../../components/form/Input";
+import { RadioTextGroup } from "../../../components/form/RadioTextGroup";
+import LongButton from "../../../components/LongButton";
+import Colors from "../../../constants/Colors";
 
 export const CreateQuestion = () => {
   const [type, setType] = useState('')
+  const [heading, setHeading] = useState('')
+  const [explain, setExplain] = useState('')
+  const [alternatives, setAlternatives] = useState(['', ''])
 
   return (
     <PageDefault>
@@ -21,13 +27,18 @@ export const CreateQuestion = () => {
         <form>
           <FieldsetHeader>
             <h1>Nova Questão</h1>
-            <button>Salvar</button>
+            <LongButton
+              path="#"
+              name="Salvar"
+              backgroundColor={Colors.secondaryGreen}
+              textColor={Colors.white}
+            />
           </FieldsetHeader>
           <Fieldset>
             <InputRow>
               <div>
                 <label>Tema</label>
-                <Input type="text" placeholder="Gestão" />
+                <Input type="text" placeholder="Design" />
               </div>
               <div>
                 <label>Dificuldade</label>
@@ -41,7 +52,7 @@ export const CreateQuestion = () => {
               <div>
                 <label>Tipo</label>
                 <Select defaultValue={type} onChange={(e) => setType(e.target.value)}>
-                  <option disabled selected>Selecionar...</option>
+                  <option disabled value=''>Selecionar...</option>
                   <option value="dissertativa">Dissertativa</option>
                   <option value="alternativa">Alternativa</option>
                 </Select>
@@ -56,33 +67,47 @@ export const CreateQuestion = () => {
                 </Select>
               </div>
             </InputRow>
-            {type === 'alternativa' && (<>
-              <InputRow>
-                <div>
-                  <label>Enunciado</label>
-                  <textarea />
-                </div>
-              </InputRow>
+            {type && <>
+              <p>Enunciado</p>
+              <textarea
+                placeholder="Digite o enunciado da questão"
+                value={heading}
+                onChange={e => setHeading(e.target.value)}
+              />
+              {type === 'alternativa' && <>
 
-              <InputRow>
-                <div>
-                  <label>Alternativas</label>
-                  <Input type="radio" />
-                  <Input type="text" placeholder="Texto da alternativa" />
-                  <Input type="radio" />
-                  <Input type="text" placeholder="Texto da alternativa" />
-                </div>
-                <button>Nova alternativa</button>
-              </InputRow>
+                <p>Alternativas</p>
+                {alternatives.map((alternative, i) => (
+                  <RadioTextGroup key={i}>
+                    <Input type="radio" name="correct" />
+                    <Input
+                      type="text"
+                      placeholder="Texto da alternativa"
+                      value={alternative}
+                      onChange={e => setAlternatives(alternatives.map((a, j) => i === j ? e.target.value : a))}
+                    />
+                  </RadioTextGroup>
+                ))}
+                <span onClick={() => setAlternatives([...alternatives, ''])}>
+                  <LongButton
+                    path="#"
+                    name="Nova alternativa"
+                    backgroundColor={Colors.secondaryGreen}
+                    textColor={Colors.white}
+                    icon
+                  />
+                </span>
+              </>}
 
-              <InputRow>
-                <div>
-                  <label>Resolução Comentada</label>
-                  <textarea />
-                </div>
-              </InputRow>
+              <br />
+              <p>Resolução Comentada</p>
+              <textarea
+                placeholder="Digite a explicação da resposta"
+                value={explain}
+                onChange={e => setExplain(e.target.value)}
+              />
 
-            </>)}
+            </>}
           </Fieldset>
         </form>
 
@@ -91,7 +116,12 @@ export const CreateQuestion = () => {
         <form>
           <FieldsetHeader>
             <h1>Fazer Upload</h1>
-            <button>Salvar</button>
+            <LongButton
+              path="#"
+              name="Salvar"
+              backgroundColor={Colors.secondaryGreen}
+              textColor={Colors.white}
+            />
           </FieldsetHeader>
           <Fieldset>
             <Input type="file" />
