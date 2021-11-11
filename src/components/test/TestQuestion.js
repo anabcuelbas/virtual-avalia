@@ -23,7 +23,7 @@ const Question = styled.h2`
     font-size: 1.4em;
 `;
 
-const ItemContainer = styled.div`
+const ItemContainer = styled.label`
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -51,7 +51,7 @@ const TestQuestion = (props) => {
             <Question>{props.question}</Question>
             {props.multiple && props.items.map((el) => (
                 <ItemContainer>
-                    <CheckBox />
+                    <input type="radio" name={props.question} />
                     <Item>{el}</Item>
                 </ItemContainer>
             ))}
